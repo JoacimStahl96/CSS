@@ -1,0 +1,186 @@
+
+/* basic elements */
+html {
+	margin: 20px;
+	padding: 0px;
+	background-image: url("NorthernLights_space_1920.jpg");
+	
+	}
+body { 
+	font: 80% Times New Roman;
+	line-height: 1.5;
+	color: #45463f; 
+	background: rgb(224, 213, 213) ;
+	margin: 2px; 
+	padding: 3px;
+	border: 5px;
+	border-radius: 10px;
+	border-style: inset;
+	}
+p { 
+	margin-top: 3px;
+	font: 1.2em Times New Roman; 
+	text-align: justify;
+	}
+h3 { 
+	font: italic bold 1.5em Times New Roman;
+	letter-spacing: 2px; 
+	margin-bottom: 0px; 
+	color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	color: #312d31;
+	}
+a:visited { 
+	font-weight: bold; 
+	 
+	color: #1fbcd8;
+	}
+a:hover, a:focus, a:active { 
+	
+	color: #a82485;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+
+	padding: 0 150px 0 0px;  
+	margin: 20px; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 500px;
+	width: 100%;
+	
+	}
+
+header h1 { 
+
+	margin-top: 0px;
+	left: 0px; 
+	display: block;
+	width: 190px;
+	height: 10px;
+	float: left;
+	text-indent: 270%;
+	color: rgb(60, 75, 74) ;
+	font: italic bold 5em Times New Roman;
+	white-space: nowrap;
+	overflow: visible;
+	}
+header h2 { 
+
+	margin-top: 70px; 
+	margin-bottom: 40px; 
+	width: 200px; 
+	height: 18px; 
+	float: center;
+	text-indent: 300%;
+	color: rgb(60, 75, 74) ;
+	white-space: nowrap;
+	overflow: visible;
+	}
+header {
+	padding-top: 10px;
+	height: 95px;
+	background-color: rgb(140, 196, 85);
+	border-radius: 20px;
+	
+}
+
+.summary {
+	clear: right; 
+	margin: 20px 30px 500px 0px; 
+	width: 160px; 
+	float: left;
+	background-color: rgb(206, 80, 30);
+	border-radius: 10px;
+	}
+.summary p {
+	font: italic 1.5em calibri; 
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-right: 100px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 40px;
+	
+	}
+
+.sidebar {
+	
+	position: absolute;
+	width: 220px; 
+	bottom: 200px;
+	right: 5px;
+	background-color: rgb(170, 182, 59);
+	border-radius: 10px;
+	}
+.sidebar .wrapper { 
+	font: italic 1.1em Calibri; 
+	padding: 0px; 
+	width: 50px;
+	text-align: left;
+	}
+.sidebar h3.select { 
+	margin: 0px 0px 0px 10px; 
+	width: 100px; 
+	height: 20px;
+	text-indent: 0%; 
+	white-space: nowrap;
+	
+	
+	}
+.sidebar h3.archives { 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	height: 14px; 
+	text-indent: 15%;
+	white-space: normal;
+	
+	
+	}
+.sidebar h3.resources { 	
+	margin: 50px 0 5px 0; 
+	width:63px; 
+	height: 14px; 
+	text-indent: 15%;
+	white-space: nowrap;
+	
+	}
+.sidebar ul {
+	margin: 20px;
+	padding: 0px;
+	
+	}
+.sidebar li {
+	line-height: 1em; 
+	width: 200px;
+	display: outside; 
+	
+	}
+.sidebar li a:link {
+	color: rgb(81, 51, 190);
+	
+	}
+.sidebar li a:visited {
+	color: #ec5ca0;
+	
+	}
