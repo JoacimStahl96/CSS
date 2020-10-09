@@ -97,7 +97,7 @@ header h2 {
 
 header h2::after{
 
-	content: " - home of excellent css";
+	content: " - Home of Excellent CSS";
 }
 
 header {
