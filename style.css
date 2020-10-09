@@ -6,7 +6,7 @@ html {
 	background-image: url("NorthernLights_space_1920.jpg");
 	
 	}
-	
+
 body { 
 	font: 80% Times New Roman;
 	line-height: 1.5;
@@ -23,7 +23,7 @@ p {
 	margin-top: 3px;
 	font: 1.2em Times New Roman; 
 	text-align: justify;
-	}
+}
 
 h3 { 
 	font: italic bold 1.5em Times New Roman;
@@ -35,22 +35,22 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	color: #312d31;
-	}
+}
 
 a:visited { 
 	font-weight: bold; 
 	 
 	color: #1fbcd8;
-	}
+}
 
 a:hover, a:focus, a:active { 
 	
 	color: #a82485;
-	}
+}
 
 abbr {
 	border-bottom: none;
-	}
+}
 
 
 /* specific divs */
@@ -59,13 +59,13 @@ abbr {
 	padding: 0 150px 0 0px;  
 	margin: 20px; 
 	position: relative;
-	}
+}
 
 .intro { 
 	min-width: 500px;
 	width: 100%;
 	
-	}
+}
 
 header h1 { 
 
@@ -80,7 +80,7 @@ header h1 {
 	font: italic bold 5em Times New Roman;
 	white-space: nowrap;
 	overflow: visible;
-	}
+}
 
 header h2 { 
 
@@ -93,7 +93,7 @@ header h2 {
 	color: rgb(60, 75, 74) ;
 	white-space: nowrap;
 	overflow: visible;
-	}
+}
 
 header h2::after{
 
@@ -135,6 +135,7 @@ header {
 footer { 
 	text-align: center; 
 	}
+
 footer a:link, footer a:visited { 
 	margin-right: 40px;
 	
